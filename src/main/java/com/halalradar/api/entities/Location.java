@@ -8,9 +8,9 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-@Entity
-@Getter
-@Setter
+@Entity // This annotation automatically generates getter methods for all fields in the class.
+@Getter // This annotation automatically generates getter methods for all fields in the class.
+@Setter // This annotation automatically generates setter methods for all fields in the class.
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "locations")
