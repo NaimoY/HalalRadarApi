@@ -1,4 +1,4 @@
-package mapper;
+package com.halalradar.api.mappers;
 
 import com.halalradar.api.dtos.CategoryDto;
 import com.halalradar.api.entities.Category;
