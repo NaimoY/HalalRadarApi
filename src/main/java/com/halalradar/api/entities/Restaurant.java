@@ -8,11 +8,11 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-@Entity
+@Getter // This annotation automatically generates getter methods for all fields in the class.
+@Setter // This annotation automatically generates setter methods for all fields in the class.
+@AllArgsConstructor // This is the annotation that Generates a constructor with one parameter for each field in this class.
+@NoArgsConstructor // This annotation Generates a no-argument constructor.
+@Entity // This annotation marks the class as a JPA entity, meaning it maps to a database table.
 @Table(name = "restaurant")
 public class Restaurant {
     @Id
